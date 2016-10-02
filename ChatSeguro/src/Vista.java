@@ -41,7 +41,7 @@ public class Vista extends javax.swing.JFrame {
             }
         });
 
-        jRadioButton2.setText("serbidor");
+        jRadioButton2.setText("servidor");
 
         jLabel2.setText("Direccion:");
 
