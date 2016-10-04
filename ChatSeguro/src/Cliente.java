@@ -1,5 +1,3 @@
-
-// Cliente que lee y muestra la información que le envía un Servidor.
  import java.io.*;
  import java.net.*;
  import java.awt.*;
@@ -52,7 +50,7 @@
     } // fin del constructor de Cliente
 
     // conectarse al servidor y procesar mensajes del servidor
-    private void ejecutarCliente()
+    void ejecutarCliente()
     {
        // conectarse al servidor, obtener flujos, procesar la conexión
      try {
@@ -207,5 +205,4 @@
        aplicacion.ejecutarCliente();
     }
 
- } // fin de la clase Cliente
-
+ }

@@ -201,12 +201,15 @@ public class Servidor extends JFrame {
       }  // fin de la clase interna
        ); // fin de la llamada a SwingUtilities.invokeLater
    }
-
-   public static void main( String args[] )
+   
+    
+  /*public static void main( String args[] )
   {
        Servidor aplicacion = new Servidor();
        aplicacion.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
       aplicacion.ejecutarServidor();
+               
     }
+*/
+} // fin de la clase Servidor
 
-}  // fin de la clase Servidor

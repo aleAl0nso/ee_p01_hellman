@@ -1,7 +1,6 @@
 
 
 public class Nodo<T> {
-
 	public Nodo(){
 		dato = null;
 		siguiente = null;
@@ -39,4 +38,6 @@ public class Nodo<T> {
 	public String toString(){
 		return "["+getDato()+"]";
 	}
+
+
 }
